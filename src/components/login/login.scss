@@ -1,0 +1,41 @@
+.login-wrapper{
+    background-image: url('../././../assets/img/starwars-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+    h1{
+        margin: 0;
+        padding: 30px 0;
+        color: #fff;
+        text-align: center;
+        font-size: 42px;
+        font-weight: 700;
+    }
+}
+.login-form{
+    background-color: rgba(50, 50, 50, 0.75);
+    border-radius: 3px;
+    padding: 30px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    h3{
+        color: #ffffff;
+        margin:0;
+        padding: 0;
+    }
+
+    .login-form__control{
+        margin: 15px 0;
+        label{
+            display: block;
+            margin-bottom: 5px;
+            color: #ffffff;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #cccccc;
+    padding: 10px 0;
+
+    .header__logo{
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .header__message{
+        font-size: 14px;
+
+        span{
+            color: #000000;
+            font-weight: 500;
+        }
+    }
+
+    button{
+        margin-left: 30px;
+    }
+}

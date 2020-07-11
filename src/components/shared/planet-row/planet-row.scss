@@ -1,0 +1,18 @@
+.planet-row{
+    padding: 5px 0;
+    white-space: nowrap;
+    padding: 10px;
+    background: #ffea51;
+    margin: 10px 0;
+    display: inline-block;
+
+    .planet-row__planet{
+        font-size: 16px;
+        font-weight: 500;
+        margin-right: 15px;
+    }
+    .planet-row__population{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+}
